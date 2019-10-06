@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "captcha-verify"
+    ],
+    "parentResource": "ilmredweb02e2be94",
+    "functionName": "ilmredweb02e2be94VerifyAuthChallengeResponse",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "VerifyAuthChallengeResponse.json.ejs",
+    "roleName": "ilmredweb02e2be94VerifyAuthChallengeResponse",
+    "skipEdit": true,
+    "resourceName": "ilmredweb02e2be94VerifyAuthChallengeResponse"
+}

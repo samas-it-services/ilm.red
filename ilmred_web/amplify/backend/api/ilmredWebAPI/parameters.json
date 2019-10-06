@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "ilmredWebAPI",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authilmredweb02e2be94",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

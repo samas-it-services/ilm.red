@@ -1,0 +1,34 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "ilmredweb-dev-20191004233534-authRole",
+            "UnauthRoleArn": "arn:aws:iam::691844104426:role/ilmredweb-dev-20191004233534-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::691844104426:role/ilmredweb-dev-20191004233534-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "ilmredweb-dev-20191004233534-deployment",
+            "UnauthRoleName": "ilmredweb-dev-20191004233534-unauthRole",
+            "StackName": "ilmredweb-dev-20191004233534",
+            "StackId": "arn:aws:cloudformation:us-east-1:691844104426:stack/ilmredweb-dev-20191004233534/55a84000-e73a-11e9-9ce3-12069a319f62"
+        },
+        "categories": {
+            "function": {
+                "ilmredweb02e2be94DefineAuthChallenge": {},
+                "ilmredweb02e2be94CreateAuthChallenge": {},
+                "ilmredweb02e2be94VerifyAuthChallengeResponse": {
+                    "RECAPTCHASECRET": "6LenCLwUAAAAAKqDpq9Emp3-9iFg-SO8Ho08bDXA"
+                },
+                "ilmredweb02e2be94CustomMessage": {
+                    "REDIRECTURL": "www.ilm.red/captcharedirect",
+                    "EMAILSUBJECT": "ILM.RED - please verify your email",
+                    "EMAILMESSAGE": "Please click the link below to verify the your email address."
+                },
+                "ilmredweb02e2be94PostConfirmation": {
+                    "GROUP": "ilmred-verified-users"
+                }
+            },
+            "auth": {
+                "ilmredweb02e2be94": {}
+            }
+        }
+    }
+}

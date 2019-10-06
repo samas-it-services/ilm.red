@@ -1,0 +1,35 @@
+type Book @model 
+ @auth(rules: [{ allow: owner, operations: [update, delete] }])
+{
+  id: ID!
+  name: String!
+  filename: String
+  downloadurl: String
+  sourceurl: String
+  numpages: Int
+  title: String
+  lang: String
+  maintopic: String
+  publisher: String
+  dateadded: String
+  updatedAt: AWSDateTime 
+  posts: [Post] @connection(name: "BookPosts")
+}
+type Post @model 
+ @auth(rules: [{ allow: owner, operations: [update, delete] }])
+
+{
+  id: ID!
+  title: String!
+  updatedAt: AWSDateTime 
+  Book: Book @connection(name: "BookPosts")
+  comments: [Comment] @connection(name: "PostComments")
+}
+type Comment @model 
+ @auth(rules: [{ allow: owner, operations: [update, delete] }])
+{
+  id: ID!
+  content: String
+  updatedAt: AWSDateTime 
+  post: Post @connection(name: "PostComments")
+}

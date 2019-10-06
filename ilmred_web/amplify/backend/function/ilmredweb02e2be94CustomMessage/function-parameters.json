@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "verification-link"
+    ],
+    "parentResource": "ilmredweb02e2be94",
+    "functionName": "ilmredweb02e2be94CustomMessage",
+    "parentStack": "auth",
+    "triggerEnvs": "[{\"key\":\"RESOURCENAME\",\"value\":\"resourceName\"}]",
+    "triggerTemplate": "CustomMessage.json.ejs",
+    "roleName": "ilmredweb02e2be94CustomMessage",
+    "skipEdit": true,
+    "resourceName": "ilmredweb02e2be94CustomMessage"
+}

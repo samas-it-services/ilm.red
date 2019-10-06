@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "captcha-create-challenge"
+    ],
+    "parentResource": "ilmredweb02e2be94",
+    "functionName": "ilmredweb02e2be94CreateAuthChallenge",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "CreateAuthChallenge.json.ejs",
+    "roleName": "ilmredweb02e2be94CreateAuthChallenge",
+    "skipEdit": true,
+    "resourceName": "ilmredweb02e2be94CreateAuthChallenge"
+}

@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "captcha-define-challenge"
+    ],
+    "parentResource": "ilmredweb02e2be94",
+    "functionName": "ilmredweb02e2be94DefineAuthChallenge",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "DefineAuthChallenge.json.ejs",
+    "roleName": "ilmredweb02e2be94DefineAuthChallenge",
+    "skipEdit": true,
+    "resourceName": "ilmredweb02e2be94DefineAuthChallenge"
+}
